@@ -5,3 +5,80 @@
     Verde: #49a09d
     Roxo: #5f2c82
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5f2c82;
+}
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div > img {
+    border-radius: 20px 20px 0px 0px;
+    display: block;
+    margin: auto;
+}
+
+div#formulario {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+div#formulario > p {
+    text-align: justify;
+    font-size: 0.9em;
+}
+form > div.campo {
+    background-color: #5f2c82;
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+form > div > input {
+    background-color: #66e0dc;
+    width: 93%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+form > div > input:hover {
+    background-color: white;
+}
+
+form > input#acesso {
+    padding: 10px 10px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    color: white;
+    background-color:#49a09d;
+    border: 1px solid  #49a09d;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+form > input#esqueci {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #49a09d;
+    border-radius: 10px;
+    color:  #2f6866;
+    font-size: 1em;
+}
