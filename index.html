@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -21,17 +23,22 @@
 
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
-                        <label for="email"></label>
-                        <input type="email" name="email" id="email" placeholder="seu e-mail" autocomplete="email" title="Preencha esse campo."> <br>
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="email" placeholder="seu e-mail" autocomplete="email" title="Preencha esse campo." required>
+                        <label for="email">login</label> <br>
                     </div>
 
                     <div class="campo">
-                        <label for="senha"></label>
-                        <input type="password" name="senha" id="senha" placeholder="sua senha" maxlength="8" title="Preencha esse campo."> <br>
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="senha" placeholder="sua senha" minlength="8" maxlength="20" title="Preencha esse campo." autocomplete="current-password" required> 
+                        <label for="senha">senha</label><br>
                     </div>
 
                     <input type="submit" value="Entrar"> <br>
-                    <input type="submit" value="Esqueci a senha">
+                    <a href="esqueci.html">
+                        Esqueci a senha <i class="material-icons">mail</i>
+                    </a>
+                    
                 </form>
             </div>
              

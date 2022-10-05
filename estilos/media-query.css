@@ -43,5 +43,12 @@
         float: left;
         width: 50%;
     }
+
+    section#formulario > h1 {
+        font-size: 2em;
+    }
+    section#formulario > p {
+        font-size: 1.2em;
+    }
     
 }
